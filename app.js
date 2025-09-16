@@ -1,3 +1,4 @@
+alert("this is Math Expresion js of Assigment")
 // question 1
 var math=(3 + 5)
 document.writeln(math)
