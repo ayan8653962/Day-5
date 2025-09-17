@@ -52,16 +52,16 @@ document.writeln("One Tiket Prize " + tiket)
 var tiket1=(tiket * 5)
 document.writeln("Total Tiket Prize " + tiket1)
 // question 5
-var ite1=prompt("Enter Item 1")
+var ite1=+prompt("Enter Item 1")
 var item1=(ite1)
 document.writeln(ite1)
-var ite2=prompt("Enter Item 2")
+var ite2=+prompt("Enter Item 2")
 var item2=(ite2)
 document.writeln(ite2)
-var ite3=prompt("Enter Item 1 Quantity 1")
+var ite3=+prompt("Enter Item 1 Quantity 1")
 var quantity1=(ite3)
 document.writeln(ite3)
-var ite4=prompt("Enter Item 1 Quantity 2")
+var ite4=+prompt("Enter Item 1 Quantity 2")
 var quantity2=(ite4)
 document.writeln(ite4)
 
@@ -69,7 +69,7 @@ var shipping=(200)
 document.writeln("shipping Charges " + 200)
 
 var Total=(item1 + item2 + quantity1 + quantity2 + shipping)
-document.writeln(Total)
+document.writeln("Total Prize = " + Total)
 
 
 
